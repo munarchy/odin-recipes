@@ -34,3 +34,6 @@ ul {
 .titles {
     text-align: center;
 }
+nav {
+    display: inline;
+}
