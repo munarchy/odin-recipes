@@ -12,8 +12,10 @@ button {
     padding: 10px 20px;
     border-radius: 25px;
     border-color: rgb(218, 107, 17);
+    border-style: dashed;
 }
 li {
+
     padding: 7px;
     list-style-type: none;
     display: inline;
@@ -22,4 +24,13 @@ li {
 h1 {
     text-align: center;
     color: rgb(105, 151, 105); 
+}
+ul {
+    margin-left: -5%;
+}
+.header {
+    font-family: Garamond;
+}
+.titles {
+    text-align: center;
 }
