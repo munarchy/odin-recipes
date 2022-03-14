@@ -14,7 +14,11 @@ button {
     border-color: rgb(218, 107, 17);
     border-style: dashed;
 }
-li {
+div {
+    display: list-item;
+}
+.navigation,
+.button-main {
 
     padding: 7px;
     list-style-type: none;
@@ -25,15 +29,23 @@ h1 {
     text-align: center;
     color: rgb(105, 151, 105); 
 }
-ul {
-    margin-left: -5%;
-}
+
 .header {
     font-family: Garamond;
 }
 .titles {
     text-align: center;
+} 
+div {
+    list-style: none;
+    padding-left: 210px;
 }
-nav {
-    display: inline;
+.recipe-li {
+    text-align: left;
+
+}
+img {
+    border-style: dashed;
+    border-color:rgb(218, 107, 17);
+    border-width: 5px;
 }
